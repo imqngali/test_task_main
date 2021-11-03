@@ -1,0 +1,122 @@
+header {
+    height: 100vh;
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 45%;
+}
+
+.header {
+    padding-top: 80px;
+}
+
+.header_nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+}
+
+.header_nav > .nav_items > .nav_item {
+    color: #B5B5B5;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    transition: all 0.3s linear;
+}
+
+.header_nav > .nav_items > .nav_item:hover {
+    color: #F2994A;
+}
+
+.header_nav > .nav_login > button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    width: 112px;
+    padding: 8px 0;
+    border: 1px solid #F2994A;
+    cursor: pointer;
+}
+
+.header_nav > .nav_login > button:first-child {
+    color: #F2994A;
+    background: transparent;
+}
+
+.header_nav > .nav_login > button:first-child:hover {
+    opacity: 0.8;
+}
+
+.header_nav > .nav_login > button:last-child {
+    color: #fff;
+    background: #F2994A;
+    margin-left: 20px;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+}
+
+.header_nav > .nav_login > button:last-child:hover {
+    opacity: 0.8;
+}
+
+.header_text {
+    padding-top: 200px;
+}
+
+.header_text > h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    max-width: 530px;
+    color: #99EFD0;
+    line-height: 50px;
+}
+
+.header_text > p {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #8476AA;
+    max-width: 468px;
+    padding-top: 20px;
+}
+
+.header_text_btn {
+    padding-top: 40px;
+}
+
+.header_text_btn > button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    width: 157px;
+    padding: 8px 0;
+    border: 1px solid #F2994A;
+    cursor: pointer;
+}
+
+.header_text_btn > button:hover {
+    opacity: 0.8;
+}
+
+.header_text_btn > button:first-child {
+    background: #F2994A;
+    color: #fff;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+}
+
+.header_text_btn > button:last-child {
+    color: #F2994A;
+    background: transparent;
+    margin-left: 20px;
+}

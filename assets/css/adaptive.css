@@ -1,0 +1,257 @@
+@media (max-width: 1100px) {
+    header {
+        height: 50vh;
+    }
+
+    .header {
+        margin: 0 20px;
+    }
+
+    .advantage_items {
+        margin: 0 20px;
+    }
+
+    .advantage_item {
+        width: 30%;
+    }
+
+    .stonks_text {
+        margin-left: 20px;
+    }
+
+    .footer_inner {
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        background-size: 50%;
+    }
+
+    .header_text {
+        padding-top: 100px;
+    }
+
+    .header_text > h1 {
+        font-size: 30px;
+        max-width: 375px;
+        line-height: 40px;
+    }
+
+    .header_text > p {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 380px;
+    }
+
+    .advantage {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: bottom left;
+    }
+
+    .advantage_partners {
+        margin: 0 20px;
+    }
+
+    .advantage_partners > .partners_item {
+        width: 14%;
+    }
+
+    .advantage_heading > h1 {
+        font-size: 35px;
+    }
+
+    .advantage_heading > p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .advantage_item {
+        width: 45%;
+    }
+
+    .stonks {
+        background-size: cover;
+        margin-top: 0;
+    }
+
+    .stonks_text > h1 {
+        font-size: 30px;
+        max-width: 290px;
+        line-height: 40px;
+    }
+
+    .stonks_text > p {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 300px;
+    }
+
+    .stonks_text > button {
+        padding: 15px 25px;
+    }
+
+    .form_inner > div > h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 720px) {
+    header {
+        background-size: 100%;
+        height: 85vh;
+        background-position: center right;
+    }
+
+    .header {
+        padding-top: 40px;
+    }
+
+    .header_nav > .nav_login > button {
+        width: 90px;
+    }
+
+    .header_text {
+        padding-top: 50px;
+    }
+
+    .header_text > h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .header_text_btn > button {
+        width: 120px;
+    }
+
+    .nav_items {
+        display: none;
+    }
+
+    .advantage {
+        margin-top: -150px;
+    }
+
+    .advantage_heading > h1 {
+        font-size: 22px;
+    }
+
+    .advantage_item {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .stonks > div {
+        display: block;
+    }
+
+    .stonks_text {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .stonks_text > h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .stonks_text > p {
+        font-size: 14px;
+        padding-top: 20px;
+    }
+
+    .stonks_text > button {
+        padding: 11px 18px;
+        margin-top: 20px;
+    }
+
+    .stonks_card {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .form {
+        margin-top: 100px;
+    }
+
+    .form_inner > div > h1 {
+        font-size: 20px;
+    }
+
+    .form_inner > div > p {
+        font-size: 14px;
+    }
+
+    .form_inner > div > form {
+        width: 90%;
+    }
+
+    .form_inner > div > form > input {
+        width: 70%;
+    }
+
+    .form_inner > div > form > button {
+        width: 30%;
+    }
+
+    footer {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+    }
+
+    .footer_top a {
+        margin-left: 5px;
+    }
+
+    .footer_top > h1 {
+        font-size: 20px;
+    }
+
+    .footer_items {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+    .footer_item {
+        margin-top: 30px;
+    }
+
+    .footer_item > div {
+        display: none;
+    }
+
+    .footer_item > p {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .footer_copyright {
+        margin-top: 60px;
+    }
+
+    .footer_copyright > a {
+        display: block;
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .footer_copyright > a:nth-child(2) {
+        margin: 0;
+        margin-top: 20px;
+    }
+}
